@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Happy Valentine Day LOVE:)</title>
+    <link
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <style>
+      #audio {
+          display: none;
+      }
+  </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="one">
+        <h1 class="one">
+          Oooo My
+          <span id="name">My</span>
+        </h1>
+        <p class="two" id="greetingText">I love you so much!</p>
+      </div>
+      <div class="three">
+        <p>It's a Valentine day today 💖</p>
+      </div>
+      <div class="four">
+        <div class="text-box">
+          <p class="hbd-chatbox">
+            Happy Valentine's Day!! wishes for my Lovely wife....
+          </p>
+          <p class="fake-btn">Search</p>
+        </div>
+      </div>
+      <div class="five">
+        <p class="idea-1">That's the way to wish others.</p>
+        <p class="idea-2">But not a way to wish my Cutuuuuu 💕</p>
+        <p class="idea-3">
+          Because, You are Exceptional and very <strong>Special</strong>.
+        </p>
+        <p class="idea-4"> 👩‍❤️‍💋‍👨 Darling 👩‍❤️‍💋‍👨</p>
+        <p class="idea-5" id="specialText">
+          You are a Heavenly Beauty 💖
+          <span>:)</span>
+        </p>
+        <p class="idea-6">
+          <span>S</span>
+          <span>O</span>
+        </p>
+      </div>
+      <div class="six">
+        <img src="img/vector.jpg" alt="" class = "girl-dp" id="imagePath" />
+        <div class="wish">
+          <h3 class="wish-hbd">Happy Valentine Day Krithu</h3>
+          <h5 id="wishText">kuch kuch</h5>
+          <audio id="audio" controls muted autoplay>
+            <source src="./song/song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+      </div>
+      <div class="seven">
+        <div class="baloons">
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/smiling.svg" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+       
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/music-note.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/heart.svg" />
+          <img src="img/music-note.svg" alt="" />
+          <img src="img/smiling.svg" />
+          <img src="img/happy.svg" alt="" />
+          <img src="img/balloon.svg" alt="" />
+          <img src="img/heart.svg" />
+          <img src="img/smiling.svg" />
+        
+        </div>
+      </div>
+      <div class="eight">
+        <svg viewBox="0 0 40 40" xmlnssvg/heart.svg.org/2000/svg">
+        <circle cx="20" cy="20" r="20" />
+      </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" />
+        </svg>
+      </div>
+      <div class="nine">
+        <p>❤️ I libir libir you so much 💞</p>
+        <p id="replay"> ▶️ click, to watch it again.</p>
+        <p class="last-smile">:)</p>
+      
+      </div>
+    </div>
+    <script>
+   
+      function playAudioAfterDelay(delay) {
+          setTimeout(function() {
+              var audio = document.getElementById("audio");
+              audio.muted = false;
+              audio.play().catch(function(error) {
+                  console.error("Error playing audio:", error);
+              });
+          }, delay);
+      }
+
+      playAudioAfterDelay(32000); 
+  </script>
+    
+  </body>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script type="text/babel" src="script/main.js"></script>
+</html>
